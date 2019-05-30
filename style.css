@@ -53,16 +53,13 @@ se le inserisco ad ogni città singolarmente funziona perfettamente */
 
 }
 
-/* Sto cercando di implementare opacità solo alla prima città ma tutto quanto si sposta eppure solo la prima città
-viene offuscata
-#lay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(233,233,240,0.5);
-} */
+
+#lay, #lay2, #lay3 {
+  position: relative;
+  width: 33vw;
+  height: 100vh;
+  background-color: rgba(233,233,240,0.7);
+}
 
 
 .title {
@@ -70,7 +67,7 @@ viene offuscata
   font-size: 45px;
   text-align: center;
   position: relative;
-  color: white;
+  color: black;
   top:50%;
   left: 50%;
   transform: translate(-50%, -50%);
