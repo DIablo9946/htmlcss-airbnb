@@ -1,0 +1,8 @@
+/* Per buona pratica elimino i bordi e i margini del browser */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Eseguo un piccolo test se il file del css funziona correttamente
+ * {background-color: red;} */
