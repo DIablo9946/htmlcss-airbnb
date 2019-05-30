@@ -10,13 +10,14 @@
 
  #container {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
 }
 
 .ista, .wawa, .mad {
-  width: 33.1vw;
+  width: 33vw;
   height: 100vh;
-  background-size: auto;
+
+  background: no-repeat;
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -33,16 +34,23 @@
    z-index: 3;
  }
 
+/* Chiedere come mai se applico   background-size: cover; a tutte e 3 classi insieme non funziona invece
+se le inserisco ad ogni città singolarmente funziona perfettamente */
+
 .ista {
-  background: url(img/ista.jpg)
+  background: url(img/ista.jpg);
+  background-size: cover;
 }
 
 .wawa {
-  background: url(img/wawa.jpg)
+  background: url(img/wawa.jpg);
+  background-size: cover;
 }
 
 .mad {
-  background: url(img/mad.jpg)
+  background: url(img/mad.jpg);
+  background-size: cover;
+
 }
 
 .title {
