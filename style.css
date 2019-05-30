@@ -6,3 +6,15 @@
 
 /* Eseguo un piccolo test se il file del css funziona correttamente
  * {background-color: red;} */
+
+.ista {
+  background: url(img/ista.jpg)
+}
+
+.wawa {
+  background: url(img/wawa.jpg)
+}
+
+.mad {
+  background: url(img/mad.jpg)
+}
