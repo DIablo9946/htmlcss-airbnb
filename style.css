@@ -2,10 +2,25 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* Eseguo un piccolo test se il file del css funziona correttamente
  * {background-color: red;} */
+
+
+.town {
+  width: 32.9vw;
+  height: 100vh;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-size: contain;
+}
+
+ .layover {
+   background-color: rgba(160, 160, 160, 0.7);
+ }
 
 .ista {
   background: url(img/ista.jpg)
@@ -17,4 +32,12 @@
 
 .mad {
   background: url(img/mad.jpg)
+}
+
+h1 {
+  font-family: Ariel, sans-serif;
+  font-size: 45px;
+  text-align: center;
+  position: relative;
+
 }
